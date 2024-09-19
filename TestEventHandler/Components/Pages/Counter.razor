@@ -1,0 +1,42 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+@inject HubCenter hub
+@if (flag)
+{
+    @text
+
+}
+
+
+<br />
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="IncrementCount2">Click Send Number</button>
+
+
+@code {
+    private int currentCount = 0;
+    bool flag = false;
+    string text = "Calling Hub";
+    private async void IncrementCount()
+    {
+        await hub.CallHub();
+    }
+    private async void IncrementCount2()
+    {
+        await hub.CallHub2(5);
+    }
+
+
+    protected override void OnInitialized()
+    {
+        hub.Onchange += ShowText;
+
+
+    }
+    async void ShowText(object sender, EventArgs eventArgs)
+    {
+        flag = true;
+        await InvokeAsync(StateHasChanged);
+    }
+
+}

@@ -1,0 +1,31 @@
+﻿@page "/weather"
+@rendermode InteractiveServer
+
+@inject HubCenter hub
+@if (flag)
+{
+    @text
+    <br />
+    @currentCount
+}
+@code {
+    bool flag = false;
+    string text = "Calling Hub";
+    private int currentCount = 0;
+
+    protected override void OnInitialized()
+    {
+        hub.Onchange += ShowText;
+        hub.Onreceive += showNO;
+    }
+    async void ShowText(object sender, EventArgs eventArgs)
+    {
+        flag = true;
+        await InvokeAsync(StateHasChanged);
+    }
+    async void showNO(object sender, int i)
+    {
+        currentCount = i;
+        await InvokeAsync(StateHasChanged);
+    }
+}

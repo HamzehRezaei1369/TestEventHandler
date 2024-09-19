@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TestEventHandler\\TestEventHandler\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TestEventHandler.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TestEventHandler.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\TestEventHandler\\TestEventHandler\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\TestEventHandler\\TestEventHandler\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TestEventHandler\\TestEventHandler\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\TestEventHandler\\TestEventHandler\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TestEventHandler.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TestEventHandler.props",
+      "PackagePath": "build\\TestEventHandler.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TestEventHandler.props",
+      "PackagePath": "buildMultiTargeting\\TestEventHandler.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TestEventHandler.props",
+      "PackagePath": "buildTransitive\\TestEventHandler.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
