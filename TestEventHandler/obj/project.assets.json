@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TestEventHandler\\TestEventHandler\\TestEventHandler.csproj",
+      "projectUniqueName": "C:\\Users\\hr96636\\Desktop\\TestEventHandler\\TestEventHandler\\TestEventHandler.csproj",
       "projectName": "TestEventHandler",
-      "projectPath": "D:\\TestEventHandler\\TestEventHandler\\TestEventHandler.csproj",
+      "projectPath": "C:\\Users\\hr96636\\Desktop\\TestEventHandler\\TestEventHandler\\TestEventHandler.csproj",
       "packagesPath": "C:\\Users\\hr96636\\.nuget\\packages\\",
-      "outputPath": "D:\\TestEventHandler\\TestEventHandler\\obj\\",
+      "outputPath": "C:\\Users\\hr96636\\Desktop\\TestEventHandler\\TestEventHandler\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hr96636\\AppData\\Roaming\\NuGet\\NuGet.Config",
